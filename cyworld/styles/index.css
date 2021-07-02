@@ -1,0 +1,124 @@
+*{margin: 0px;box-sizing: border-box;}
+
+.background{
+    background-image: url('../images/background.png');width: 1024px;
+    height: 600px;
+    padding:20px 0 0 20px;
+}
+.outerbox{
+    background-image: url('../images/outer.png');
+    width: 808px;
+    height: 544px;
+}
+/* 전체 배경 */
+
+.wrapper{
+    display: flex;
+    padding: 32px 0 0 32px;
+}
+.wrapper__left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 208px;
+    height: 472px;
+}
+.wrapper__left__header{
+    width: 120px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 8px;
+}
+.header__left{
+}
+.txt{
+    font-size: 9px;
+    line-height: 9px;}
+.num{
+    font-size: 11px;
+    line-height: 15px;
+    }
+    .num.zero{color: red;}
+.txt_line{
+    width: 1px;
+    height: 8px;
+    background-color: #000;
+    margin-bottom: 3px;}
+.header__right{}
+/* header end */
+
+.wrapper__left__body{
+    width: 208px;
+    height: 440px;
+    background-color: white;
+    border: 1px solid #c4c4c4;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.wrapper__left__top{
+}
+.imgbox{
+    width: 148px;
+    height: 133px;
+    background-color: #c4c4c4;
+    margin-top: 20px; 
+}
+.imgbox__border{
+    border-bottom: 1px dotted #000;
+    width: 148px;
+    margin: 12px 0;
+}
+
+.txtbox_txt{
+    padding-bottom: 8px;
+    font-family: Malgun Gothic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 9px;
+    line-height: 12px;
+    color: #999999;
+}
+.txtbox_txt i{
+    font-size: 11px;
+    line-height: 12px;
+    color: #000;
+}
+
+.wrapper__left__bottom{
+    width: 148px;
+    margin-bottom: 30px;
+}
+.wrapper__left__bottom h5{
+    font-family: Malgun Gothic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 15px;
+    color: #999;
+}
+.wrapper__left__bottom select{
+    width: 140px;
+    height: 18px;
+    border: 2px solid #c4c4c4;
+    font-size: 10px;
+}
+
+
+
+.wrapper__right{
+    width: 524px;
+    height: 472px;
+    background-color: skyblue;
+    margin-left: 10px
+}
+
+
+
+
+

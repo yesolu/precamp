@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Flex</title>
+    <style>
+        .mother{
+            display: flex;
+            /* 정렬기능 활성화 부모에게 속성 부여*/
+            flex-direction: column;
+            /* 정렬 중심 축을 정해줌 row=가로 column=세로 */
+            justify-content: space-around;
+            /* 중심 축과 같은 축 
+            space-around = 양끝 비율 1 사이 간격 비율 2 (1:2:1)
+            space-between = 양끝을 기준으로 정렬 */
+            align-items: center;
+            /* 기준과 반대되는 축 */
+            width: 500px;
+            height: 500px;
+            background-color: royalblue;
+        }
+
+        .child{
+            width: 100px;
+            height: 100px;
+            background-color: salmon;
+        }
+
+        #position{
+            /* position: absolute;top: 20px; */
+            /* 부모기준 */
+            /* position: relative; */
+            /*  */
+            /* position: fixed; */
+            /* 화면 기준 */
+            background-color: seagreen;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="mother">
+        <div class="child">box</div>
+        <div class="child">box</div>
+        <div id="position" class="child">box</div>
+        <div class="child">box</div>
+    </div>
+</body>
+</html>
